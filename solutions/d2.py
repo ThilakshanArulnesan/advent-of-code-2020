@@ -27,7 +27,7 @@ def part1():
 
     data = read_file('data/d2.in')
 
-    print(get_num_valid(data))
+    print(f"Number of valid passwords {get_num_valid(data)}")
 
 
 def part2():
@@ -56,5 +56,4 @@ def part2():
         return total_valid
 
     data = read_file('data/d2.in')
-
-    print(get_num_valid(data))
+    print(f"Number of valid passwords {get_num_valid(data)}")

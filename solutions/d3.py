@@ -24,7 +24,7 @@ def find_num_trees(data, down=1, right=3):
 def part1():
     data = read_file('data/d3.in')
     num_trees = find_num_trees(data, 1, 3)
-    print(num_trees)
+    print(f"Number of trees collided with: {num_trees}")
 
 
 def part2():
@@ -39,4 +39,6 @@ def part2():
     answer = 1
     for slope in slopes:
         answer *= find_num_trees(data, slope[1], slope[0])
-    print(answer)
+
+    print(
+        f"Product of number of trees collided with for all given slopes: {answer}")

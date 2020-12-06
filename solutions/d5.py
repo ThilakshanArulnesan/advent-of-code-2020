@@ -30,7 +30,7 @@ def part1():
         seat_id = get_seat_id(line)
         if(seat_id > max_num):
             max_num = seat_id
-    print(max_num)
+    print(f"Max seat number: {max_num}")
 
 
 def find_my_seat(valid_seats):
@@ -50,5 +50,4 @@ def part2():
     for line in data:
         seat_id = get_seat_id(line)
         valid_seats.remove(seat_id)
-
-    print(find_my_seat(valid_seats))
+    print(f"My seat number: {find_my_seat(valid_seats)}")
