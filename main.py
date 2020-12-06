@@ -1,4 +1,4 @@
-from solutions import d1, d2, d3
+from solutions import d1, d2, d3, d4, d5
 
 # print("--- Day 1 ---")
 # d1.part1()
@@ -8,7 +8,12 @@ from solutions import d1, d2, d3
 # d2.part1()
 # d2.part2()
 
-print("--- Day 3 ---")
+# print("--- Day 3 ---")
 
-d3.part1()
-d3.part2()
+# d3.part1()
+# d3.part2()
+
+print("--- Day 4 ---")
+
+# d4.part1()
+# d4.part2()
