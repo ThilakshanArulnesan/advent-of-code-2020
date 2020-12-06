@@ -13,7 +13,12 @@ from solutions import d1, d2, d3, d4, d5
 # d3.part1()
 # d3.part2()
 
-print("--- Day 4 ---")
+# print("--- Day 4 ---")
 
 # d4.part1()
 # d4.part2()
+
+print("--- Day 5 ---")
+
+# d5.part1()
+d5.part2()
