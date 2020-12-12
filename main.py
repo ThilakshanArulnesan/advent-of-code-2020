@@ -1,5 +1,6 @@
 from solutions import (d1, d2, d3, d4, d5,
-                       d6, d7, d8, d9, d10)
+                       d6, d7, d8, d9, d10,
+                       d11)
 
 # print("--- Day 1 ---")
 # d1.part1()
@@ -46,7 +47,13 @@ from solutions import (d1, d2, d3, d4, d5,
 # d9.part2()
 
 
-print("--- Day 10 ---")
+# print("--- Day 10 ---")
 
-d10.part1()
-d10.part2()
+# d10.part1()
+# d10.part2()
+
+
+print("--- Day 11 ---")
+
+# d11.part1()
+d11.part2()
