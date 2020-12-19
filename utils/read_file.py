@@ -18,3 +18,13 @@ def read_file_chunks(fname, split_text="\n\n", join_seperator=None):
 
     return [join_seperator.join(chunk.split())
             for chunk in f.read().split(split_text)]
+
+def read_file_chunks_no_split(fname, split_text="\n\n", join_seperator=None):
+    f = open(fname, "r")
+
+    if(join_seperator == None):
+        return [chunk
+                for chunk in f.read().split(split_text)]
+
+    return [join_seperator.join(chunk)
+            for chunk in f.read().split(split_text)]
