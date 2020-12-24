@@ -8,7 +8,7 @@ def parse(line):
 
 
 def part1():
-    data = read_file('data/d20.in')
+    data = read_file('data/d21.in')
     allergen_dict = {}
     all_ingred = []
     for line in data:
@@ -35,7 +35,7 @@ def part1():
     print(f"Number of ingredients that are definitely safe: {len(good_ing)}.")
 
 def part2():
-    data = read_file('data/d20.in')
+    data = read_file('data/d21.in')
     allergen_dict = {}
     all_ingred = []
     for line in data:
