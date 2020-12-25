@@ -127,5 +127,5 @@ from solutions import (d1, d2, d3, d4, d5,
 
 print("--- Day 22 ---")
 
-d22.part1()
-# d22.part2()
+# d22.part1()
+d22.part2()
