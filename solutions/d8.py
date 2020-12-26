@@ -54,9 +54,9 @@ def find_acc_with_one_mutation(data):
 def part1():
     data = read_file('data/d8.in')
     solution, _ = find_acc_val_before_loop(data)
-    print(solution)
+    print(f"Value of accumulator: {solution}")
 
 def part2(): 
     data = read_file('data/d8.in')
     solution = find_acc_with_one_mutation(data)
-    print(solution)
+    print(f"Value of accumulator: {solution}")

@@ -64,7 +64,7 @@ def count_occupied(seat_matrix):
         count += row.count("#")
     return count
 
-def find_seats_when_repeat(seat_matrix, MAX_NEIGHBORS = 4, is_line_of_sight = False, should_print = True):
+def find_seats_when_repeat(seat_matrix, MAX_NEIGHBORS = 4, is_line_of_sight = False, should_print = False):
     while(True):
         prev_seats = seat_matrix.copy()
         if(should_print):

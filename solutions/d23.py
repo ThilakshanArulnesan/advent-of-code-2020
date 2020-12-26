@@ -54,7 +54,6 @@ def part2():
 
     for node in nodes:
         node_dict.update({node.value: node})
-    print("Dictionary has been built")
     nodes[len(nodes)-1].right  = nodes[0]
 
     # Perform steps
