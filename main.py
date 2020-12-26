@@ -2,7 +2,7 @@ from solutions import (d1, d2, d3, d4, d5,
                        d6, d7, d8, d9, d10,
                        d11, d12, d13, d14, d15,
                        d16, d17, d18, d19, d20,
-                       d21, d22, d23, d24)
+                       d21, d22, d23, d24, d25)
 
 # print("--- Day 1 ---")
 # d1.part1()
@@ -136,7 +136,13 @@ from solutions import (d1, d2, d3, d4, d5,
 # d23.part1()
 # d23.part2()
 
-print("--- Day 24 ---")
 
-d24.part1()
-d24.part2()
+# print("--- Day 24 ---")
+
+# d24.part1()
+# d24.part2()
+
+
+print("--- Day 25 ---")
+
+d25.part1()
